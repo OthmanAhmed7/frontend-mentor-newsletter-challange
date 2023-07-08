@@ -81,6 +81,11 @@ i {
         visibility: hidden;
       }
 
+      .visible {
+        visibility: visible;
+        transition: 0.5s;
+      }
+
       input {
         padding: 1.2rem;
         border-radius: 0.7rem;
@@ -103,14 +108,6 @@ i {
           border-color: hsl(130, 97%, 73%);
           background-color: hsl(138, 100%, 96%);
         }
-      }
-
-      span {
-        position: absolute;
-        right: 2.4rem;
-        font-weight: 500;
-        font-size: 13px;
-        color: hsl(4, 100%, 67%);
       }
     }
 

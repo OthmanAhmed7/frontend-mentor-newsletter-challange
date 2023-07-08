@@ -71,6 +71,10 @@ i {
   color: hsl(4, 100%, 67%);
   visibility: hidden;
 }
+.container .right-col form .visible {
+  visibility: visible;
+  transition: 0.5s;
+}
 .container .right-col form input {
   padding: 1.2rem;
   border-radius: 0.7rem;
@@ -94,13 +98,6 @@ i {
 .container .right-col form input:valid {
   border-color: hsl(130, 97%, 73%);
   background-color: hsl(138, 100%, 96%);
-}
-.container .right-col form span {
-  position: absolute;
-  right: 2.4rem;
-  font-weight: 500;
-  font-size: 13px;
-  color: hsl(4, 100%, 67%);
 }
 .container .right-col button {
   margin-top: 2rem;
