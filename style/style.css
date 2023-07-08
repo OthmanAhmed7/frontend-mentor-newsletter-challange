@@ -206,6 +206,9 @@ i {
   .container .right-col p {
     font-size: 1rem;
   }
+  .not-valid {
+    left: 20.4rem;
+  }
   .warning {
     background-color: hsl(235, 18%, 26%);
   }
